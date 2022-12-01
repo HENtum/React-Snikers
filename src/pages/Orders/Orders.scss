@@ -1,0 +1,25 @@
+.deleteOrders {
+  font-size: 40px;
+  color: rgb(19, 216, 42);
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+.noneOrder {
+  height: 500px;
+  margin-top: 240px;
+  .greenButton {
+    margin-top: 41px;
+
+    img {
+      position: relative;
+      transform: rotate(180deg);
+      right: 20px;
+      top: 1px;
+    }
+  }
+}
+.orderLi {
+  opacity: 40%;
+}

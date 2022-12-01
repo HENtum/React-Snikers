@@ -1,0 +1,36 @@
+.newItemLi {
+  margin-bottom: 20px;
+  border: 4px solid rgb(150, 224, 150);
+  border-radius: 10px;
+
+  input {
+    font-size: 30px;
+    border-radius: 10px;
+    border: 0;
+  }
+  img {
+    position: absolute;
+    margin-left: 20px;
+  }
+}
+.newItemButton {
+  button {
+    position: absolute;
+    border: 4px solid rgb(150, 224, 150);
+    border-radius: 10px;
+    font-size: 30px;
+
+    &:hover {
+      background-color: greenyellow;
+    }
+  }
+  p {
+    position: absolute;
+    left: 775px;
+    bottom: 124px;
+    border: 4px solid rgb(207, 150, 224);
+    border-radius: 10px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+}
